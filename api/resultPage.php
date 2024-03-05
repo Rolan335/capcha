@@ -10,7 +10,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     } else{
         echo <<<HTML
         <h1>Вы не угадали капчу</h1>
-        <a href="/">Назад.</a>
+        <a href="index.php">Назад.</a>
         HTML;
     }
     }
